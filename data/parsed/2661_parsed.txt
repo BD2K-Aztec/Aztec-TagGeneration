@@ -1,0 +1,1 @@
+systems_biology largenet an object oriented programming library for simulating large adaptive networks the largenet c library provides an infrastructure for the simulation of large dynamic and adaptive networks with discrete node and link states 
