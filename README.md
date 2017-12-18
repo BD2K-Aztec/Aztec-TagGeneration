@@ -17,9 +17,9 @@ insertSpace.py: Insert space between capital letters in the original papers then
 
 src/online_query/segphrase_parser.cpp: the original code uses [] to indicate frequent phrases. Changed to "_" to connect phrase as a single word for the doc2vec training purpose.    <br />
 
-These modified code and results are uploaded in the [google drive] (https://drive.google.com/drive/folders/109w9CKtA0UbFscERUzMdQAQw7WW_Ckoz?usp=sharing). <br />
+These modified code and results are uploaded in the [google drive](https://drive.google.com/drive/folders/109w9CKtA0UbFscERUzMdQAQw7WW_Ckoz?usp=sharing). <br />
 ## Models
 
-Doc2Vec trained models with word embedding dimension 50, 100 and 400 are uploaded in the [google drive] (https://drive.google.com/drive/folders/109w9CKtA0UbFscERUzMdQAQw7WW_Ckoz?usp=sharing). <br /> 
+Doc2Vec trained models with word embedding dimension 50, 100 and 400 are uploaded in the [google drive](https://drive.google.com/drive/folders/109w9CKtA0UbFscERUzMdQAQw7WW_Ckoz?usp=sharing). <br /> 
 
 
