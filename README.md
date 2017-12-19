@@ -9,8 +9,12 @@ parsed: output of segphrase parsing with default parameter 0.6, all frequent phr
 ## Source Code
 
 Doc2Vec.py: Read in processed and combined 4953 PubMed paper file, build and train a doc2vec model with dimension specified in the parameters <br />
+
 dumpFiles.py: Extract all 4953 paper from a single file Output2.txt. These files have better format and less syntax errors. The extracted paper are further processed to train the doc2vec model. All the processed files are stored in /ProcessedNew <br />
+
 insertSpace.py: Insert space between capital letters in the original papers then changed all these paper to lowercase for SegPhrase training purpose.
+
+doc2vec_visual.py: dump the results of most significant words trained on the doc2vec model to results.txt. Usage: python doc2vec_visual.py [model dimension] [file range]
 
 ## Modified SegPhrase
 [SegPhrase](https://github.com/shangjingbo1226/SegPhrase) is git cloned from the original author. The source code are modified for the purpose of the current task. <br />
@@ -22,4 +26,6 @@ These modified code and results are uploaded in the [google drive](https://drive
 
 Doc2Vec trained models with word embedding dimension 50, 100 and 400 are uploaded in the [google drive](https://drive.google.com/drive/folders/109w9CKtA0UbFscERUzMdQAQw7WW_Ckoz?usp=sharing). <br /> 
 
+##Results
+data/results.txt: contains paper with corresponding significant word trained on the doc2vec model with specified word embedding dimension <br />
 
