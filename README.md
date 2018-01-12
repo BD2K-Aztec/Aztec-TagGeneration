@@ -1,5 +1,11 @@
 # Aztec-TagGeneration
 
+## Running Steps:
+1. Use modified SegPhrase code to generate parsed file with high frequency phrases. All the parsed results are stored in Data/parsed in this repo.
+To Generate the parsed results, run with: ./parse.sh
+2. Combine all the parsed files to a single file, feed file to Doc2Vec.py.It will generate doc2vec models with specified word embedding dimension. Run with python Doc2Vec.py.
+3. doc2Vec_visual.py produces a single file contains all the significant phrases for each of the parsed file using a trained Doc2Vec model with specified wording embedding dimension.
+
 ## Data
 
 data/PaperSet: all the 4953 PubMed paper <br />
